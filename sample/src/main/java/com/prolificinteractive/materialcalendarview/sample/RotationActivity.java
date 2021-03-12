@@ -1,16 +1,20 @@
 package com.prolificinteractive.materialcalendarview.sample;
 
 import android.os.Bundle;
+import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import android.widget.Toast;
-import butterknife.BindView;
-import butterknife.ButterKnife;
+
 import com.prolificinteractive.materialcalendarview.CalendarDay;
 import com.prolificinteractive.materialcalendarview.MaterialCalendarView;
 import com.prolificinteractive.materialcalendarview.OnDateLongClickListener;
 import com.prolificinteractive.materialcalendarview.OnMonthChangedListener;
-import org.threeten.bp.format.DateTimeFormatter;
+
+import java.time.format.DateTimeFormatter;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
 /**
  * Shows off the most basic usage

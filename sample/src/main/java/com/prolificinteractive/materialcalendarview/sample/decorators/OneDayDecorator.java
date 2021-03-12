@@ -3,11 +3,13 @@ package com.prolificinteractive.materialcalendarview.sample.decorators;
 import android.graphics.Typeface;
 import android.text.style.RelativeSizeSpan;
 import android.text.style.StyleSpan;
+
 import com.prolificinteractive.materialcalendarview.CalendarDay;
 import com.prolificinteractive.materialcalendarview.DayViewDecorator;
 import com.prolificinteractive.materialcalendarview.DayViewFacade;
 import com.prolificinteractive.materialcalendarview.MaterialCalendarView;
-import org.threeten.bp.LocalDate;
+
+import java.time.LocalDate;
 
 /**
  * Decorate a day by making the text big and bold

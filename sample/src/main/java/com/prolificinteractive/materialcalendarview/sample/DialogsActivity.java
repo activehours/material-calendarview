@@ -3,18 +3,22 @@ package com.prolificinteractive.materialcalendarview.sample;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.os.Bundle;
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.app.AppCompatDialogFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDialogFragment;
+
 import com.prolificinteractive.materialcalendarview.CalendarDay;
 import com.prolificinteractive.materialcalendarview.MaterialCalendarView;
 import com.prolificinteractive.materialcalendarview.OnDateSelectedListener;
-import org.threeten.bp.format.DateTimeFormatter;
+
+import java.time.format.DateTimeFormatter;
+
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 /**
  * Shows off the most basic usage

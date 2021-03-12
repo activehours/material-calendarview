@@ -1,6 +1,7 @@
 package com.prolificinteractive.materialcalendarview.format;
 
 import android.text.SpannableStringBuilder;
+
 import com.prolificinteractive.materialcalendarview.CalendarDay;
 
 /**

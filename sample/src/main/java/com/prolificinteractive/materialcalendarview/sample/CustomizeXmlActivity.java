@@ -1,10 +1,13 @@
 package com.prolificinteractive.materialcalendarview.sample;
 
 import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.prolificinteractive.materialcalendarview.MaterialCalendarView;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import com.prolificinteractive.materialcalendarview.MaterialCalendarView;
 
 public class CustomizeXmlActivity extends AppCompatActivity {
 

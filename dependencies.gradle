@@ -24,7 +24,6 @@ ext {
   hamcrestIntegration = "org.hamcrest:hamcrest-integration:$hamcrestVersion"
 
   // Other
-  threeTenAbp = 'com.jakewharton.threetenabp:threetenabp:1.2.1'
   butterknife = 'com.jakewharton:butterknife:10.2.1'
   butterknifeCompiler = 'com.jakewharton:butterknife-compiler:10.2.1'
 

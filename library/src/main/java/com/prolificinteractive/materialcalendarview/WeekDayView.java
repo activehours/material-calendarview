@@ -3,11 +3,14 @@ package com.prolificinteractive.materialcalendarview;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Build;
+import android.view.Gravity;
+
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatTextView;
-import android.view.Gravity;
+
 import com.prolificinteractive.materialcalendarview.format.WeekDayFormatter;
-import org.threeten.bp.DayOfWeek;
+
+import java.time.DayOfWeek;
 
 /**
  * Display a day of the week
